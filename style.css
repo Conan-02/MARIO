@@ -1,0 +1,53 @@
+body {
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+
+.Heading {
+    width: 100%;
+    text-align: left;
+    border: 2px solid red;
+}
+
+.Heading h3 {
+    display: inline;
+    font-size: 50px;
+}
+
+.Heading button {
+    float: right;
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+.big_image {
+    width: 100%;
+}
+
+#playBtn, #status{
+    border: 2px solid red;
+    box-shadow: 2px 2px 5px red;
+    font-size: 25px;
+    margin: 5px;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: -300px;
+}
+
+.img1 {
+    width: 50%;
+    display: inline-block;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+video {
+    background: url("game_console.png");
+    background-size: cover;
+    background-position: center;
+    padding: 45px;
+}
